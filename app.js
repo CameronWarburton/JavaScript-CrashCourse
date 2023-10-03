@@ -1,9 +1,7 @@
-// Fuction definition
-function welcomePersonToFES(name) {
-    console.log(`Welcome to Frontend Simplified, ${name}`)
+// Function definition
+function welcomePersonToFES(firstName, lastName) {
+    console.log(`Welcome to FES, ${firstName} ${lastName}`)
 }
 
 // Call the function
-welcomePersonToFES('Cameron');
-welcomePersonToFES('David');
-welcomePersonToFES('Mitri');
+welcomePersonToFES('Cameron', 'Warburton');
