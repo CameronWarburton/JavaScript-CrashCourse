@@ -1,7 +1,7 @@
-// Function definition
-function welcomePersonToFES(firstName, lastName) {
-    console.log(`Welcome to FES, ${firstName} ${lastName}`)
+function convertCelsiusToFahrenheit (celsius) {
+    return celsius * 1.8 + 32
 }
 
-// Call the function
-welcomePersonToFES('Cameron', 'Warburton');
+console.log(convertCelsiusToFahrenheit(0))
+console.log(convertCelsiusToFahrenheit(10))
+console.log(convertCelsiusToFahrenheit(30))
