@@ -1,12 +1,5 @@
-let arr = [20, 30, 40, 50, 100]
+let grades = ['A=', 'A', 'FAIL']
 
-// First element of array
-console.log(arr[0])
+let goodGrades = grades.filter(element => element !== 'FAIL')
 
-// Last element of array
-console.log(arr[arr.length - 1])
-
-// Add element onto end of array
-arr.push(200)
-
-console.log(arr);
+console.log(goodGrades)
