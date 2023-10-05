@@ -1,11 +1,5 @@
-let grades = ['A+', 'A', 'FAIL']
+let arr = [1, 4, 9, 16]
 
-let goodGrades = []
+let newArray = arr.map(element => 'dog')
 
-for (let i = 0; i < grades.length; ++i) {
-    if (grades[i] !== 'FAIL') {
-        goodGrades.push(grades[i]);
-    }
-}
-
-console.log(goodGrades)
+console.log(newArray)
