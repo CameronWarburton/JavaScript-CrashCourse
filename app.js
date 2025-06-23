@@ -1,1 +1,3 @@
-console.log('Hello World'[10]);
+let bool = !false
+
+console.log(bool);
