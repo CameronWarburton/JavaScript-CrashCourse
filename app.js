@@ -1,11 +1,18 @@
-let grades = ["A+", "A", "FAIL"];
+let users = [
+  {
+    username: "Cameron",
+    email: "Cameron@frontendsimplified.com",
+    subscribtionStatus: "VIP",
+    discordId: "CamboWarbo",
+    lessonsCompleted: [0, 1],
+  },
+  {
+    username: "Mitri",
+    email: "Mitri@frontendsimplified.com",
+    subscribtionStatus: "VIP",
+    discordId: "Mitri#0001",
+    lessonsCompleted: [0, 1, 2, 3],
+  },
+];
 
-let goodGrades = [];
-
-for (let i = 0; i < grades.length; ++i) {
-  if (grades[i] !== "FAIL") {
-    goodGrades.push(grades[i]);
-  }
-}
-
-console.log(goodGrades)
+console.log(users[0].lessonsCompleted.map(elem => elem * 2))
